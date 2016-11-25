@@ -1,0 +1,15 @@
+body {
+	background-image: url("img/bg.jpg");
+}
+h1 {
+	color: green;
+}
+p {
+	color: silver;
+}
+.box {
+	border: 2px solid black;
+}
+.big_box {
+	border: 5px solid black;
+}
