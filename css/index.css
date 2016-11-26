@@ -2,14 +2,18 @@ body {
 	background-image: url("bg.jpg");
 }
 h1 {
-	color: green;
+	color: lime;
+	font-size: 60px;
 }
 p {
-	color: silver;
+	color: white;
 }
 .box {
 	border: 2px solid black;
 }
 .big_box {
 	border: 5px solid black;
+}
+* {
+	font-family: Arial;
 }
