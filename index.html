@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>A github website</title>
+<title>Homepage</title>
 <link href="css/index.css" type="text/css" rel="stylesheet" />
 <link href="favicon.png" rel="icon" />
 </head>
@@ -15,6 +15,14 @@
 <h2>Boggle Generator</h2>
 <p>This generates a 4x4 grid of random letters for playing Boggle. The function
 to generate in generate().</p>
+<button>Show Source Code</button>
+<pre id="boggle-code" class="code">
+import random
+letters=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+def generate():
+	for x in range(0, 4):
+		print(random.choice(letters), random.choice(letters), random.choice(letters), random.choice(letters))
+</pre>
 <a href="programs/boggle.py" download>Download</a>
 </div>
 </body>

@@ -18,10 +18,11 @@ p {
 	font-family: Arial;
 }
 a {
-	margin: 5px;
+	padding: 15px;
 	background-color: lime;
 	font-style: none;
 	color: green;
+	font-size: large;
 }
 a:hover {
 	color: hsla(3, 100%, 25%, 1.0);
