@@ -22,10 +22,11 @@ a {
 	background-color: lime;
 	font-style: none;
 	color: green;
-	font-size: large;
+	font-size: x-large;
 }
 a:hover {
 	color: hsla(3, 100%, 25%, 1.0);
+	background-color: hsla(3, 100%, 25%, 0.75);
 }
 a:visited {
 	color: blue;
